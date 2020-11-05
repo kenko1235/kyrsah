@@ -71,7 +71,7 @@
 				// scene objects
 				
 				var textureLoader = new THREE.TextureLoader();
-				var texture = textureLoader.load( 'textures/kote.jpg' );
+				var texture = textureLoader.load( 'kote.jpeg' );
 				//texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 				//texture.anisotropy = 16;
 				var material = new THREE.MeshBasicMaterial( { map: texture } );
@@ -81,7 +81,7 @@
 				Cube.position.y = 100;
 				scene.add( Cube );
 
-				var texture = textureLoader.load( 'textures/checkerboard.jpg' );
+				var texture = textureLoader.load( 'checkerboard.jpg' );
 				texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 				texture.anisotropy = 16;
 				texture.repeat.set( 4, 4 );
